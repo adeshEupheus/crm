@@ -24,7 +24,8 @@ import TagSchool from "./Pages/TagSchool";
 import AddSchool from "./Pages/AddSchool";
 
 function App() {
-  const isAuth = useSelector((state) => state.auth.user);
+  const isAuth = true
+  // const isAuth = useSelector((state) => state.auth.user);
 
   return (
     <div className=" font-Roboto bg-[#111322]">
